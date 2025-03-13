@@ -12,7 +12,7 @@ def calculate_series(n):
 
 
 def main():
-    expected_trunc_errs = [1e-4, 1e-5, 1e-6, 1e-8]
+    expected_trunc_errs = [1e-4, 1e-8]
     for trunc_err in expected_trunc_errs:
         print(f'期望截断误差为{trunc_err}')
         n = 0
